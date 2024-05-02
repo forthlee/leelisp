@@ -616,7 +616,7 @@ def inputs():
 
 def repl():
     while True:
-        print("LispLee> ", end="")
+        print("lispLee> ", end="")
         text = inputs()
         val = eval(compile(ast(tokenize(text))), env)
         if val is not None: 
