@@ -1,5 +1,5 @@
 # lispLee
-
+A Lisp bytecode compiler and interpreter implemented in Python.
 <pre>
 > python test.py
 ********************************************* : 0 out of 79 tests fail.
