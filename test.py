@@ -206,6 +206,6 @@ def test(tests, name=''):
     print('%s %s: %d out of %d tests fail.' % ('*'*45, name, fails, len(tests)))
 
 if __name__ == '__main__':
-    from lispLee import *
+    from llisp import *
     test(lis_tests)
     test(lispy_tests)
